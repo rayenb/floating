@@ -1,1 +1,23 @@
-/* Pon tu código css aqui */
+section {
+	border: 1px solid black;
+	width: 600px;
+}
+.box {
+	width: 150px;
+	height: 100px;
+	float: right;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+	background-color: blue;
+}
+.red {
+	background-color: red;
+} 
+.contenedor:after {
+    content: "";
+    clear: both;
+    display: block;
+}
